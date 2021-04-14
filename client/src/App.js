@@ -1,11 +1,14 @@
 import { BrowserRouter } from 'react-router-dom';
 import AppRouter from './components/AppRouter';
-import Header from './layout/Header';
+import Navbar from './components/Navbar/Navbar';
+
+import GlobalStyle from './globalStyles';
 
 function App() {
     return (
         <BrowserRouter className='app'>
-            <Header />
+            <GlobalStyle />
+            <Navbar />
             <AppRouter />
         </BrowserRouter>
     );

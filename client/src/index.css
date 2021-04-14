@@ -11,18 +11,3 @@ code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
         monospace;
 }
-
-.grid {
-    display: grid;
-}
-
-.link {
-    color: #fff;
-    text-decoration: none;
-    font-size: 1.5em;
-    transition: linear 0.2s color;
-}
-
-.link:hover {
-    color: #ffc60c;
-}
