@@ -14,7 +14,7 @@ export const Brands = styled.div`
 `;
 export const Card = styled.div`
     border: 1px solid #101522;
-    border-radius: 7px;
+    border-radius: 6px;
 
     cursor: pointer;
 

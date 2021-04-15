@@ -22,7 +22,6 @@ export const Device = ({ device }) => {
             <Info>
                 <Description>Apple</Description>
                 <Rating>
-                    {device.rating}{' '}
                     {device.rating > 4.5 ? (
                         <Icon>
                             <AiFillStar />

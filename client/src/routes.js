@@ -1,7 +1,7 @@
 import Admin from './layout/Admin';
 import Auth from './components/Auth/Auth';
 import Basket from './layout/Basket';
-import DevicePage from './layout/DevicePage';
+import DevicePage from './components/Shop/Device/DevicePage';
 import Shop from './components/Shop/Shop';
 
 import {

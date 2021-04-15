@@ -31,7 +31,7 @@ const Navbar = observer(() => {
                     <NavbarContainer>
                         <NavLogo to='/'>
                             <NavIcon />
-                            Ract App Store
+                            React App Store
                         </NavLogo>
                         <MobileIcon onClick={handleClick}>
                             {click ? <FaTimes /> : <FaBars />}
