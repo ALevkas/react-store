@@ -14,7 +14,7 @@ export const Card = styled.div`
     height: 500px;
 
     border: 2px solid #101522;
-    border-radius: 10px;
+    border-radius: 6px;
     padding: 1rem;
 
     display: grid;
@@ -52,7 +52,7 @@ export const Input = styled.input`
 
     padding: 0.5rem;
 
-    border-radius: 5px;
+    border-radius: 6px;
 `;
 
 export const IconClear = styled(GrClearOption)`
@@ -88,7 +88,7 @@ export const Button = styled.button`
 
     background: #101522;
     border: none;
-    border-radius: 7px;
+    border-radius: 6px;
 
     transition: all 0.5s ease;
 

@@ -1,4 +1,4 @@
-import Admin from './layout/Admin';
+import Admin from './components/Admin/Admin';
 import Auth from './components/Auth/Auth';
 import Basket from './layout/Basket';
 import DevicePage from './components/Shop/Device/DevicePage';

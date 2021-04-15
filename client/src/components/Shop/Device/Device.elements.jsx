@@ -5,9 +5,17 @@ export const Devices = styled.div`
     gap: 30px;
     grid-template-columns: repeat(6, 1fr);
 
-    @media screen and (max-width: 960px) {
+    @media screen and (min-width: 0px) and (max-width: 960px) {
         justify-items: center;
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    @media screen and (min-width: 960px) and (max-width: 1366px) {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    @media screen and (min-width: 1366px) and (max-width: 1768px) {
+        grid-template-columns: repeat(4, 1fr);
     }
 `;
 export const Card = styled.div`
@@ -109,8 +117,6 @@ export const CardDevice = styled.div`
     width: 50%;
     height: 50%;
 
-    border: 2px solid #101522;
-    border-radius: 6px;
     padding: 8px;
 
     display: grid;
@@ -152,7 +158,7 @@ export const AddBasket = styled.button`
     }
 `;
 
-export const Characteristics = styled(Device)`
+export const Characteristics = styled.div`
     grid-template-columns: 1fr;
 
     @media screen and (max-width: 960px) {

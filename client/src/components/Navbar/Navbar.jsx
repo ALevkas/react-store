@@ -16,6 +16,7 @@ import {
     NavItem,
     NavLinks,
 } from './Navbar.elements';
+import { ADMIN_ROUTE } from '../../utils/consts';
 
 const Navbar = observer(() => {
     const [click, setClick] = useState(false);
@@ -43,7 +44,9 @@ const Navbar = observer(() => {
                                 </NavItem>
 
                                 <NavItem>
-                                    <NavLinks to='/admin'>Dashboard</NavLinks>
+                                    <NavLinks to={ADMIN_ROUTE}>
+                                        Dashboard
+                                    </NavLinks>
                                 </NavItem>
                                 <NavItem>
                                     <NavLinks
