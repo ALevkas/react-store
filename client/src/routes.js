@@ -2,7 +2,7 @@ import Admin from './layout/Admin';
 import Auth from './components/Auth/Auth';
 import Basket from './layout/Basket';
 import DevicePage from './layout/DevicePage';
-import Shop from './layout/Shop';
+import Shop from './components/Shop/Shop';
 
 import {
     ADMIN_ROUTE,
