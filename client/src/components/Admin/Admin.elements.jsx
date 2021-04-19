@@ -4,13 +4,16 @@ export const Container = styled.div`
     width: 80%;
     margin: 25px auto;
 
-    display: flex;
-    flex-direction: column;
+    display: grid;
     gap: 15px;
 `;
 
 export const Button = styled.button`
+    justify-self: center;
+
     cursor: pointer;
+
+    width: 100%;
     height: 75px;
 
     background-color: #fff;
@@ -22,8 +25,6 @@ export const Button = styled.button`
     font-size: 1.5rem;
 
     border-radius: 6px;
-
-    margin: 0 auto;
 
     &:hover {
         background-color: #101522;

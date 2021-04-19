@@ -13,13 +13,13 @@ const Admin = () => {
     return (
         <>
             <Container>
-                <Button onClick={() => setCreateBrandActive(true)}>
+                <Button onClick={() => setCreateTypeActive(true)}>
                     Добавить тип
                 </Button>
-                <Button onClick={() => setCreateDeviceActive(true)}>
+                <Button onClick={() => setCreateBrandActive(true)}>
                     Добавить бренд
                 </Button>
-                <Button onClick={() => setCreateTypeActive(true)}>
+                <Button onClick={() => setCreateDeviceActive(true)}>
                     Добавить устройство
                 </Button>
             </Container>

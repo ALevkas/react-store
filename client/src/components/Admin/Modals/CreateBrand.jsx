@@ -1,11 +1,17 @@
 import React from 'react';
 
-import { Modal, Content } from './Modal.elements';
-
+import { Modal, ModalSmall, Title, Form, Input, Send } from './Modal.elements';
 export const CreateBrand = ({ active, setActive }) => {
     return (
         <Modal onClick={() => setActive(false)}>
-            <Content onClick={(e) => e.stopPropagation()}></Content>
+            <ModalSmall onClick={(e) => e.stopPropagation()}>
+                <Title>Добавить бренд</Title>
+
+                <Form>
+                    <Input type='text' placeholder='Введите бренд' />
+                    <Send>Добавить</Send>
+                </Form>
+            </ModalSmall>
         </Modal>
     );
 };
