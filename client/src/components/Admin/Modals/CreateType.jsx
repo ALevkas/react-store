@@ -1,6 +1,13 @@
 import React from 'react';
 
-import { Modal, ModalSmall, Title, Form, Input, Send } from './Modal.elements';
+import {
+    Modal,
+    ModalSmall,
+    Title,
+    Form,
+    Input,
+    Button,
+} from './Modal.elements';
 export const CreateType = ({ active, setActive }) => {
     return (
         <Modal onClick={() => setActive(false)}>
@@ -9,7 +16,7 @@ export const CreateType = ({ active, setActive }) => {
 
                 <Form>
                     <Input type='text' placeholder='Введите тип' />
-                    <Send>Добавить</Send>
+                    <Button>Добавить</Button>
                 </Form>
             </ModalSmall>
         </Modal>

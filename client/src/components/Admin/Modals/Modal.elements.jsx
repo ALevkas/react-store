@@ -35,7 +35,17 @@ export const ModalSmall = styled(Content)`
     }
 `;
 
-export const Title = styled.div`
+export const ModalMedium = styled(Content)`
+    min-height: 50%;
+    width: 40%;
+
+    @media screen and (max-width: 960px) {
+        width: 80%;
+        min-height: 50%;
+    }
+`;
+
+export const Title = styled.h2`
     font-size: 2rem;
     text-align: center;
     font-weight: 600;
@@ -51,6 +61,14 @@ export const Form = styled.form`
     margin: 15px 0;
 `;
 
+export const FormItem = styled.div`
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    align-items: center;
+
+    margin: 10px 0;
+`;
+
 export const Input = styled.input`
     width: 100%;
     border: 1px solid #101522;
@@ -60,7 +78,7 @@ export const Input = styled.input`
     color: #101522;
 `;
 
-export const Send = styled.button`
+export const Button = styled.button`
     background-color: #101522;
     color: #ffffff;
 
@@ -73,4 +91,31 @@ export const Send = styled.button`
     margin: 15px 0;
 
     cursor: pointer;
+`;
+
+export const Select = styled.select`
+    width: 100%;
+    border: 1px solid #101522;
+    border-radius: 6px;
+    padding: 10px;
+
+    color: #101522;
+
+    cursor: pointer;
+`;
+
+export const Label = styled.label`
+    font-weight: 700;
+`;
+
+export const FormButtonGroup = styled.div`
+    display: flex;
+    flex-direction: column;
+`;
+
+export const FormProperty = styled.div`
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin-bottom: 15px;
 `;
